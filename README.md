@@ -1,5 +1,8 @@
 # Zerospend
 
+A word of warning though. This code is untested as of yet. There's been basic testing but it's not been used to create any transactions that were broadcast.
+In fact, the current code won't broadcast anything. Making it do that is a one-liner though.
+
 Zerospend is a tool for sending bitcoins from inputs that have 0 confirmation.
 There's a concept called Parent Pays For Child that most miners use these days. This is a tool for taking advantage of this feature.
 
